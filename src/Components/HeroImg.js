@@ -1,6 +1,7 @@
 import React from 'react'
 import IntroImg from"../assets/contact.jpg";
 import "./HeroImgStyle.css";
+import TypeWritter from "typewriter-effect";
 import {Link} from"react-router-dom";
 
 const HeroImg = () => {
@@ -11,7 +12,19 @@ const HeroImg = () => {
            className='into-img' src={IntroImg} alt="" />
         </div>
         <div className='content'>
-            <p>HI, I'M A FREELANCER.</p>
+            <p>
+              <TypeWritter
+              options={{
+                autoStart:true,
+                loop:true,
+                delay:60,
+                strings:[
+                  "HI, I'M A FREELANCER."
+                ]
+              }}
+              />
+            </p>
+
             <h1>React Developer.</h1>
             <div>
                <Link to="/project" className='btn'>Project</Link>

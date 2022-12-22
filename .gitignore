@@ -4,7 +4,7 @@
 /node_modules
 /.pnp
 /package-lock.json
-/package.json
+/package.json/
 .pnp.js
 
 # testing

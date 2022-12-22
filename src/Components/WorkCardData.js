@@ -1,23 +1,30 @@
-import contact from "../assets/display3.jpg";
+import contact from "../assets/c1.png";
+import cons from "../assets/cc0.png";
 
 const ProjectCardData = [
     {
-        imgsrc: contact,
-        title:"Website Desgin",
-        text:"The Facebook",
-        view:""
+        imgsrc: cons,
+        title:"Consultancy Desgin",
+        text:"If you are looking for some inspiration for your consulting website",
+        view:"",
+    
+       
     },
     {
         imgsrc: contact,
-        title:"Website Desgin",
-        text:"The Facebook",
-        view:""
+        title:"Consultancy Desgin",
+        text:"If you are looking for some inspiration for your consulting website",
+        view:"",
+    
+       
     },
     {
         imgsrc: contact,
-        title:"Website Desgin",
-        text:"The Facebook",
-        view:""
+        title:"Consultancy Desgin",
+        text:"If you are looking for some inspiration for your consulting website",
+        view:"",
+    
+       
     },
 ];
 export default ProjectCardData ;

@@ -1,16 +1,11 @@
 
-.container .contact_container{
-    width: 58%;
-    display: grid;
-    grid-template-columns: 30% 58%;
-    gap: 12%;
-}
+
 .contact_options{
     display: flex;
-    flex-direction: row;
-    gap: 1.2rem;
-    margin-left: 40%;
+    flex-direction: column;
+    gap: 1.4rem;
     margin-bottom: 2%;
+    margin: auto;
     
 }
 .contact_option{
@@ -20,6 +15,7 @@
     text-align: center;
     border: 1px solid transparent;
     transition: var(--transition);
+    margin-left: 55px;
 }
 .contact_option:hover{
     background: transparent;
@@ -34,6 +30,12 @@ color: aqua;
     font-size: 0.8rem;
     color: whitesmoke;
 }
+.form{
+    width: 58%;
+    display: grid;
+    grid-template-columns: 70% 58%;
+    gap: 2%;
+}
 label{
     color: #fff;
     margin-bottom: 0.5rem;
@@ -42,8 +44,10 @@ form{
     display: flex;
     flex-direction: column;
     padding: 4rem 1rem;
-    margin: auto;
+   margin: auto;
+    width: 120%;
     max-width: 600px;
+   
 }
 form input, form textarea{
     margin-bottom: 1rem;
@@ -52,4 +56,21 @@ form input, form textarea{
     background-color: rgb(255,255,255,0.1);
     border-color: rgb(255,255,255,0.1);
     color: #fff;
+}
+@media screen and (max-width: 740px) {
+    .form{
+        
+        grid-template-columns: 1fr;
+      
+    }
+    .contact_options{
+       width: fit-content;
+        
+    }
+    /* form{
+
+        width:fit-content;
+        margin-left: 10px;
+    }
+     */
 }
