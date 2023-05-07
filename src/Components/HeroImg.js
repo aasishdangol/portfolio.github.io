@@ -1,5 +1,5 @@
 import React from 'react'
-import IntroImg from"../assets/contact.jpg";
+import IntroImg from"../assets/h4.jpg";
 import "./HeroImgStyle.css";
 import TypeWritter from "typewriter-effect";
 import {Link} from"react-router-dom";

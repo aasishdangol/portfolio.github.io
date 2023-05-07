@@ -1,8 +1,8 @@
 import React from 'react';
 import "./AboutContentStyle.css";
 import { Link } from 'react-router-dom';
-import Display from'../assets/GOVN8091.webp';
-import Display2 from '../assets/GOVN8100.webp'
+import Display from'../assets/my2.jpg';
+import Display2 from '../assets/my.jpg'
 
 const AboutContent = () => {
   return (

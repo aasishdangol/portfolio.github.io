@@ -19,13 +19,14 @@
     width: 100%;
 }
 .project-title{
-    color: #fff;
+    color:white;
     padding: 1rem 0 ;
 }
 .pro-details p{
     padding-bottom:1rem;
     font-size: 1.1rem;
     text-align: justify;
+    /* color: #87f031; */
 }
 .pro-btns{
     display: flex;

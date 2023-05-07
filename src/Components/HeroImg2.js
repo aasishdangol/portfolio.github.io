@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import "./HeroImg2Style.css";
 
+
 class HeroImg2 extends Component {
 render(){
     return (

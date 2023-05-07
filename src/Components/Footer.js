@@ -29,7 +29,7 @@ const Footer = () => {
             <div className='right'>
                 <h4 >About the company</h4>
                 <p>This is me Aasish Dangol. 
-                    I am frontend react developer in A.G.I InfoTech.</p>
+                    I am frontend react developer.</p>
                 <div className='social'>
                <a href="https://www.facebook.com"> <FaFacebook size={30} style={{color:"#fff", marginRight:"1rem"}}/> </a>
                <a href="https://www.instagram.com/"><FaInstagram size={30} style={{color:"#fff", marginRight:"1rem"}}/></a> 
@@ -37,6 +37,10 @@ const Footer = () => {
                 </div>
             </div>
         </div>
+        <div className='foot'>
+    © 2023 Copyright:
+    <a href="https://AasishDangol.com/">AasishDangol.com</a>
+  </div>
     </div>
   );
 };
